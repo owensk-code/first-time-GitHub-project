@@ -1,0 +1,21 @@
+h1 {
+  padding: 0px 40px 0px 40px;
+}
+h2 {
+  padding: 0px 40px 0px 40px;
+}
+.col {
+  flex: 1 0 0%;
+}
+.card-body {
+  width: 106px;
+  height: 160px;
+  position: relative;
+  bottom: -23px;
+}
+.card-text {
+  text-align: center;
+}
+body {
+  background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
