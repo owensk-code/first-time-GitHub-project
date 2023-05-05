@@ -19,3 +19,19 @@ h2 {
 body {
   background: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
 }
+
+footer {
+  color: white;
+  margin: 0px auto;
+  display: block;
+  text-align: center;
+}
+
+.linkcode {
+  color: white;
+  text-align: center;
+}
+
+.linkcode:hover {
+  color: #ffd400;
+}
