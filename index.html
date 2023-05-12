@@ -16,58 +16,59 @@
   </head>
   <body>
     <div class="container">
-        <form class="search-bar">
-          <div class="row">
-            <div class="col-6">
-              <input
-                type="search"
-                placeholder="Enter a city.."
-                autofocus="on"
-                autocomplete="off"
-                class="form-control shadow"
-                id="city-input"
-              />
-            </div>
-            <div class="col-3">
-              <input
-                type="submit"
-                value="Search"
-                class="form-control btn btn-light shadow-sm w-100"
-                id="search-form"
-              />
-            </div>
-            <div class="col-3">
-              <button
-                class="btn btn-dark shadow-sm w-100"
-                id="current-location-button"
-              >
-                Current
-              </button>
-            </div>
-    <br />
-    <h1 id="city"></h1>
-        <ul>
-          <li id="date"></li>
-          <li id="description"></li>
-        </ul>
+      <form class="search-bar">
         <div class="row">
           <div class="col-6">
-            <div class="clearfix">
-              <div class="float-left">
-                <span class="temperature" id="temperature"></span
-                ><span class="units">°C</span>
-              </div>
-            </div>
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              autofocus="on"
+              autocomplete="off"
+              class="form-control shadow"
+              id="city-input"
+            />
           </div>
-          <div class="col-6">
-            <ul>
-              <li>Humidity: <span id="humidity"></span>%</li>
-              <li>Wind: <span id="wind"></span> km/h</li>
-            </ul>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-light shadow-sm w-100"
+              id="search-form"
+            />
+          </div>
+          <div class="col-3">
+            <button
+              class="btn btn-dark shadow-sm w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
           </div>
         </div>
-      </div>
       </form>
+      <br />
+      <h1 id="city"></h1>
+      <ul>
+        <li id="date"></li>
+        <li id="description"></li>
+      </ul>
+      <div class="row">
+        <div class="col-6">
+          <div class="clearfix">
+            <div class="float-left">
+              <span class="temperature" id="temperature"></span
+              ><span class="units">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <br />
     <div class="row row-cols-1 row-cols-md-5 g-5">
       <div class="col">
@@ -116,8 +117,15 @@
         </div>
       </div>
     </div>
-      <footer class="sourcecode">
-       <a href="https://github.com/owensk-code/first-time-GitHub-project" class="linkcode" target="_blank" >Open source code</a> by Kaylene O.
-     </footer>
+    <footer class="sourcecode">
+      <a
+        href="https://github.com/owensk-code/first-time-GitHub-project"
+        class="linkcode"
+        target="_blank"
+        >Open source code</a
+      >
+      by Kaylene O. and hosted on
+      <a ref="https://verdant-zabaione-e8a389.netlify.app"> Netlify </a>
+    </footer>
   </body>
 </html>
